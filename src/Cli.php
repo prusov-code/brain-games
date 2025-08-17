@@ -33,9 +33,9 @@ function askQuestion(mixed $question): string
     return prompt("Your answer",);
 }
 
-function playGame(array $questions, array $correctAnswers): void
+function playGame(array $questions, array $correctAnswers, string $gameDescription): void
 {
-    $userName = sayGreeting('Answer "yes" if the number is even, otherwise answer "no".');
+    $userName = sayGreeting($gameDescription);
     for ($i = 0; $i < 3; $i++) {
         $question = $questions[$i];
         $correctAnswer = $correctAnswers[$i];
