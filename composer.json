@@ -6,11 +6,14 @@
     "autoload": {
         "files": [
             "src/Cli.php",
-            "src/EvenGame.php"
+            "src/EvenGame.php",
+            "src/CalcGame.php"
         ]
     },
     "bin": [
-        "bin/brain-games"
+        "bin/brain-games",
+        "bin/brain-even",
+        "bin/brain-calc"
     ],
     "authors": [
         {
