@@ -9,9 +9,9 @@ function startCalcGame(): void
     $questions = [];
     $answers = [];
     for ($i = 0; $i < 3; $i++) {
-        $number1 = rand(1, 100);
-        $number2 = rand(1, 100);
-        $operationNumber = rand(1, 3);
+        $number1 = rand_int(1, 100);
+        $number2 = rand_int(1, 100);
+        $operationNumber = rand_int(1, 3);
         $operation = '';
         $expressionResult = 0;
         switch ($operationNumber) {

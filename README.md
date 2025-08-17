@@ -10,8 +10,8 @@
 This is simple CLI application, where you can play five different games.
 ## Prerequisites
 - Linux, Macos, WSL
-- PHP >= 8.0
-- Composer >= 2.8.0
+- PHP >= 8.2.0
+- Composer >= 2.8.5
 - Make
 - Git
 ## Setup
@@ -30,7 +30,10 @@ $ make brain-calc  # "Calculator" game
 
 $ make brain-gcd   # "Greatest common divisor" game
 
+$ make brain-progression # "Progression number" game
+
 $ make brain-prime # "Prime number" game
+
 ```
 ## Demonstration of project
 ### "Even number" game
