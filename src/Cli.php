@@ -7,9 +7,9 @@ use function Cli\prompt;
 
 function sayGreeting(string $gameDescription = ''): string
 {
-    line('Welcome to the Brain Game!');
+    line('Welcome to the Brain Games!');
     $name = prompt('May I have your name?');
-    line("Hello, %s!", $name);
+    line("Hello, {$name}!");
     if (!empty($gameDescription)) {
         line($gameDescription);
     }
