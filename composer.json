@@ -3,6 +3,11 @@
     "description": "Brain-games: Cli games for training your brain! My first hexlet project",
     "type": "project",
     "license": "MIT",
+    "autoload": {
+        "files": [
+            "src/Cli.php"
+        ]
+    },
     "bin": [
         "bin/brain-games"
     ],
@@ -12,5 +17,7 @@
             "email": "prusov-official@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.5"
+    }
 }
