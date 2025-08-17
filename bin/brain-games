@@ -1,3 +1,7 @@
 #!/usr/bin/env php
+
 <?php
-echo "Welcome to the Brain Games!\n";
+
+require __DIR__."/../vendor/autoload.php";
+
+\BrainGames\Cli\sayHello();
