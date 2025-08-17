@@ -45,6 +45,7 @@ function playGame(array $questions, array $correctAnswers, string $gameDescripti
             sayUserLose($userAnswer, $correctAnswer, $userName);
             return;
         }
+        line('Correct!');
     }
     sayCongratulions($userName);
 }
