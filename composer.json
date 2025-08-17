@@ -3,6 +3,9 @@
     "description": "Brain-games: Cli games for training your brain! My first hexlet project",
     "type": "project",
     "license": "MIT",
+    "bin": [
+        "bin/brain-games"
+    ],
     "authors": [
         {
             "name": "prusov-code",
