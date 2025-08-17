@@ -24,7 +24,7 @@ function sayCongratulions(string $userName): void
 function sayUserLose(string $userAnswer, string $correctAnswer, string $userName): void
 {
     line("'{$userAnswer}' is wrong answer ;(. Correct answer was '{$correctAnswer}'.");
-    line("Let's try again, {$userName}");
+    line("Let's try again, {$userName}!");
 }
 
 function askQuestion(mixed $question): string
