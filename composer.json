@@ -1,6 +1,6 @@
 {
     "name": "hexlet/code",
-    "description": "Brain-games: Cli games for training your brain! My first hexlet project",
+    "description": "Brain-games: Cli games for training your brain! My first Hexlet project",
     "type": "project",
     "license": "MIT",
     "autoload": {
@@ -8,14 +8,16 @@
             "src/Cli.php",
             "src/EvenGame.php",
             "src/CalcGame.php",
-            "src/GcdGame.php"
+            "src/GcdGame.php",
+            "src/ProgressionGame.php"
         ]
     },
     "bin": [
         "bin/brain-games",
         "bin/brain-even",
         "bin/brain-calc",
-        "bin/brain-gcd"
+        "bin/brain-gcd",
+        "bin/brain-progression"
     ],
     "authors": [
         {
