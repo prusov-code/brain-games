@@ -40,6 +40,7 @@ function playGame(array $questions, array $correctAnswers, string $gameDescripti
         $question = $questions[$i];
         $correctAnswer = $correctAnswers[$i];
         $userAnswer = askQuestion($question);
+        $userAnswer = is_numeric($userAnswer) ? (int)$userAnswer : $userAnswer;
         if ($userAnswer !== $correctAnswer) {
             sayUserLose($userAnswer, $correctAnswer, $userName);
             return;
