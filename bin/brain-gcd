@@ -4,4 +4,4 @@
 
 require __DIR__."/../vendor/autoload.php";
 
-\BrainGames\GcdGame\startGcdGame();
+\BrainGames\Games\GcdGame\startGcdGame();

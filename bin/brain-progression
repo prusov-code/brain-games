@@ -4,4 +4,4 @@
 
 require __DIR__."/../vendor/autoload.php";
 
-\BrainGames\ProgressionGame\startProgressionGame();
+\BrainGames\Games\ProgressionGame\startProgressionGame();

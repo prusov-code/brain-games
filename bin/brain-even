@@ -4,4 +4,4 @@
 
 require __DIR__."/../vendor/autoload.php";
 
-\BrainGames\EvenGame\startEvenGame();
+\BrainGames\Games\EvenGame\startEvenGame();
