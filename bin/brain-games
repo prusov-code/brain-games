@@ -4,4 +4,4 @@
 
 require __DIR__."/../vendor/autoload.php";
 
-\BrainGames\Cli\sayHello();
+\BrainGames\Cli\sayGreeting();
