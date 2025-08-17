@@ -8,6 +8,8 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_php-project-45&metric=bugs)](https://sonarcloud.io/summary/new_code?id=prusov-code_php-project-45)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_php-project-45&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=prusov-code_php-project-45)
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_php-project-45&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=prusov-code_php-project-45)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_php-project-45&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=prusov-code_php-project-45)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_php-project-45&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=prusov-code_php-project-45)
 ## About project
 This is simple CLI application, where you can play five different games.
 ## Prerequisites
