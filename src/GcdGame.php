@@ -9,8 +9,8 @@ function startGcdGame(): void
     $questions = [];
     $answers = [];
     for ($i = 0; $i < 3; $i++) {
-        $number1 = rand_int(1, 100);
-        $number2 = rand_int(1, 100);
+        $number1 = random_int(1, 100);
+        $number2 = random_int(1, 100);
 
         $questions[$i] = "$number1 $number2";
         $answers[$i] = findGcd($number1, $number2);

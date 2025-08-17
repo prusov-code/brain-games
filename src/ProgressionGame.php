@@ -9,14 +9,14 @@ function startProgressionGame(): void
     $questions = [];
     $answers = [];
     for ($i = 0; $i < 3; $i++) {
-        $progressionStartNumber = rand_int(1, 100);
-        $progressionStep = rand_int(1, 100);
-        $progressionLength = rand_int(5, 10);
+        $progressionStartNumber = random_int(1, 100);
+        $progressionStep = random_int(1, 100);
+        $progressionLength = random_int(5, 10);
         $progression = [];
         for ($j = 0; $j < $progressionLength; $j++) {
             $progression[$j] = getProgressionElement($j, $progressionStartNumber, $progressionStep);
         }
-        $progressionHiddenElementIndex = rand_int(0, $progressionLength - 1);
+        $progressionHiddenElementIndex = random_int(0, $progressionLength - 1);
         $answers[$i] = $progression[$progressionHiddenElementIndex];
         $progression[$progressionHiddenElementIndex] = '..';
         $questions[$i] = implode(' ', $progression);
