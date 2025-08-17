@@ -24,7 +24,7 @@ function startProgressionGame(): void
     playGame($questions, $answers, 'What number is missing in the progression?');
 }
 
-function getProgressionElement(int $index, int $progressionStartNumber, int $progressionStep)
+function getProgressionElement(int $index, int $progressionStartNumber, int $progressionStep): int
 {
     return $progressionStartNumber + $index * $progressionStep;
 }

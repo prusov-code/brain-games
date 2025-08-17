@@ -12,7 +12,7 @@ function startGcdGame(): void
         $number1 = rand(1, 100);
         $number2 = rand(1, 100);
 
-        $questions[$i] = "{$number1} {$number2}";
+        $questions[$i] = "$number1 $number2";
         $answers[$i] = findGcd($number1, $number2);
     }
     playGame($questions, $answers, 'Find the greatest common divisor of given numbers.');

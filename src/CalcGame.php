@@ -28,7 +28,7 @@ function startCalcGame(): void
                 $expressionResult = $number1 * $number2;
                 break;
         }
-        $expression = "{$number1} {$operation} {$number2}";
+        $expression = "$number1 $operation $number2";
         $questions[$i] = $expression;
         $answers[$i] = $expressionResult;
     }

@@ -9,7 +9,7 @@ function sayGreeting(string $gameDescription = ''): string
 {
     line('Welcome to the Brain Games!');
     $name = prompt('May I have your name?');
-    line("Hello, {$name}!");
+    line("Hello, $name!");
     if (!empty($gameDescription)) {
         line($gameDescription);
     }
@@ -18,19 +18,19 @@ function sayGreeting(string $gameDescription = ''): string
 
 function sayCongratulions(string $userName): void
 {
-    line("Congratulations, {$userName}!");
+    line("Congratulations, $userName!");
 }
 
 function sayUserLose(string $userAnswer, string $correctAnswer, string $userName): void
 {
-    line("'{$userAnswer}' is wrong answer ;(. Correct answer was '{$correctAnswer}'.");
-    line("Let's try again, {$userName}!");
+    line("'$userAnswer' is wrong answer ;(. Correct answer was '$correctAnswer'.");
+    line("Let's try again, $userName!");
 }
 
 function askQuestion(mixed $question): string
 {
-    line("Question: {$question}");
-    return prompt("Your answer",);
+    line("Question: $question");
+    return prompt("Your answer");
 }
 
 function playGame(array $questions, array $correctAnswers, string $gameDescription): void
