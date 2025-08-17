@@ -10,7 +10,7 @@ function sayGreeting(string $gameDescription = ''): string
     line('Welcome to the Brain Games!');
     $name = prompt('May I have your name?');
     line("Hello, $name!");
-    if ($gameDescription!=='') {
+    if ($gameDescription !== '') {
         line($gameDescription);
     }
     return $name;
